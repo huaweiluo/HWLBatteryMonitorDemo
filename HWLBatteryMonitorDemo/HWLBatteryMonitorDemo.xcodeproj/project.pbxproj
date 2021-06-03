@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8387DF662668ADF8001D3F2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387DF652668ADF8001D3F2A /* AppDelegate.m */; };
+		8387DF692668ADF8001D3F2A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387DF682668ADF8001D3F2A /* SceneDelegate.m */; };
+		8387DF6C2668ADF8001D3F2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387DF6B2668ADF8001D3F2A /* ViewController.m */; };
+		8387DF6F2668ADF8001D3F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8387DF6D2668ADF8001D3F2A /* Main.storyboard */; };
+		8387DF712668ADF9001D3F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8387DF702668ADF9001D3F2A /* Assets.xcassets */; };
+		8387DF742668ADF9001D3F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8387DF722668ADF9001D3F2A /* LaunchScreen.storyboard */; };
+		8387DF772668ADF9001D3F2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387DF762668ADF9001D3F2A /* main.m */; };
+		8387DF812668ADFA001D3F2A /* HWLBatteryMonitorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387DF802668ADFA001D3F2A /* HWLBatteryMonitorDemoTests.m */; };
+		8387DF8C2668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387DF8B2668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8387DF7D2668ADFA001D3F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8387DF592668ADF8001D3F2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8387DF602668ADF8001D3F2A;
+			remoteInfo = HWLBatteryMonitorDemo;
+		};
+		8387DF882668ADFA001D3F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8387DF592668ADF8001D3F2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8387DF602668ADF8001D3F2A;
+			remoteInfo = HWLBatteryMonitorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8387DF612668ADF8001D3F2A /* HWLBatteryMonitorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWLBatteryMonitorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8387DF642668ADF8001D3F2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8387DF652668ADF8001D3F2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8387DF672668ADF8001D3F2A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8387DF682668ADF8001D3F2A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8387DF6A2668ADF8001D3F2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8387DF6B2668ADF8001D3F2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8387DF6E2668ADF8001D3F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8387DF702668ADF9001D3F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8387DF732668ADF9001D3F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8387DF752668ADF9001D3F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8387DF762668ADF9001D3F2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8387DF7C2668ADFA001D3F2A /* HWLBatteryMonitorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWLBatteryMonitorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8387DF802668ADFA001D3F2A /* HWLBatteryMonitorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLBatteryMonitorDemoTests.m; sourceTree = "<group>"; };
+		8387DF822668ADFA001D3F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8387DF872668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWLBatteryMonitorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8387DF8B2668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLBatteryMonitorDemoUITests.m; sourceTree = "<group>"; };
+		8387DF8D2668ADFA001D3F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8387DF5E2668ADF8001D3F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387DF792668ADFA001D3F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387DF842668ADFA001D3F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8387DF582668ADF8001D3F2A = {
+			isa = PBXGroup;
+			children = (
+				8387DF632668ADF8001D3F2A /* HWLBatteryMonitorDemo */,
+				8387DF7F2668ADFA001D3F2A /* HWLBatteryMonitorDemoTests */,
+				8387DF8A2668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests */,
+				8387DF622668ADF8001D3F2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8387DF622668ADF8001D3F2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8387DF612668ADF8001D3F2A /* HWLBatteryMonitorDemo.app */,
+				8387DF7C2668ADFA001D3F2A /* HWLBatteryMonitorDemoTests.xctest */,
+				8387DF872668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8387DF632668ADF8001D3F2A /* HWLBatteryMonitorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8387DF642668ADF8001D3F2A /* AppDelegate.h */,
+				8387DF652668ADF8001D3F2A /* AppDelegate.m */,
+				8387DF672668ADF8001D3F2A /* SceneDelegate.h */,
+				8387DF682668ADF8001D3F2A /* SceneDelegate.m */,
+				8387DF6A2668ADF8001D3F2A /* ViewController.h */,
+				8387DF6B2668ADF8001D3F2A /* ViewController.m */,
+				8387DF6D2668ADF8001D3F2A /* Main.storyboard */,
+				8387DF702668ADF9001D3F2A /* Assets.xcassets */,
+				8387DF722668ADF9001D3F2A /* LaunchScreen.storyboard */,
+				8387DF752668ADF9001D3F2A /* Info.plist */,
+				8387DF762668ADF9001D3F2A /* main.m */,
+			);
+			path = HWLBatteryMonitorDemo;
+			sourceTree = "<group>";
+		};
+		8387DF7F2668ADFA001D3F2A /* HWLBatteryMonitorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8387DF802668ADFA001D3F2A /* HWLBatteryMonitorDemoTests.m */,
+				8387DF822668ADFA001D3F2A /* Info.plist */,
+			);
+			path = HWLBatteryMonitorDemoTests;
+			sourceTree = "<group>";
+		};
+		8387DF8A2668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8387DF8B2668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests.m */,
+				8387DF8D2668ADFA001D3F2A /* Info.plist */,
+			);
+			path = HWLBatteryMonitorDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8387DF602668ADF8001D3F2A /* HWLBatteryMonitorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8387DF902668ADFA001D3F2A /* Build configuration list for PBXNativeTarget "HWLBatteryMonitorDemo" */;
+			buildPhases = (
+				8387DF5D2668ADF8001D3F2A /* Sources */,
+				8387DF5E2668ADF8001D3F2A /* Frameworks */,
+				8387DF5F2668ADF8001D3F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWLBatteryMonitorDemo;
+			productName = HWLBatteryMonitorDemo;
+			productReference = 8387DF612668ADF8001D3F2A /* HWLBatteryMonitorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8387DF7B2668ADFA001D3F2A /* HWLBatteryMonitorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8387DF932668ADFA001D3F2A /* Build configuration list for PBXNativeTarget "HWLBatteryMonitorDemoTests" */;
+			buildPhases = (
+				8387DF782668ADFA001D3F2A /* Sources */,
+				8387DF792668ADFA001D3F2A /* Frameworks */,
+				8387DF7A2668ADFA001D3F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8387DF7E2668ADFA001D3F2A /* PBXTargetDependency */,
+			);
+			name = HWLBatteryMonitorDemoTests;
+			productName = HWLBatteryMonitorDemoTests;
+			productReference = 8387DF7C2668ADFA001D3F2A /* HWLBatteryMonitorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8387DF862668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8387DF962668ADFA001D3F2A /* Build configuration list for PBXNativeTarget "HWLBatteryMonitorDemoUITests" */;
+			buildPhases = (
+				8387DF832668ADFA001D3F2A /* Sources */,
+				8387DF842668ADFA001D3F2A /* Frameworks */,
+				8387DF852668ADFA001D3F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8387DF892668ADFA001D3F2A /* PBXTargetDependency */,
+			);
+			name = HWLBatteryMonitorDemoUITests;
+			productName = HWLBatteryMonitorDemoUITests;
+			productReference = 8387DF872668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8387DF592668ADF8001D3F2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					8387DF602668ADF8001D3F2A = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8387DF7B2668ADFA001D3F2A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8387DF602668ADF8001D3F2A;
+					};
+					8387DF862668ADFA001D3F2A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8387DF602668ADF8001D3F2A;
+					};
+				};
+			};
+			buildConfigurationList = 8387DF5C2668ADF8001D3F2A /* Build configuration list for PBXProject "HWLBatteryMonitorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8387DF582668ADF8001D3F2A;
+			productRefGroup = 8387DF622668ADF8001D3F2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8387DF602668ADF8001D3F2A /* HWLBatteryMonitorDemo */,
+				8387DF7B2668ADFA001D3F2A /* HWLBatteryMonitorDemoTests */,
+				8387DF862668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8387DF5F2668ADF8001D3F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8387DF742668ADF9001D3F2A /* LaunchScreen.storyboard in Resources */,
+				8387DF712668ADF9001D3F2A /* Assets.xcassets in Resources */,
+				8387DF6F2668ADF8001D3F2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387DF7A2668ADFA001D3F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387DF852668ADFA001D3F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8387DF5D2668ADF8001D3F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8387DF6C2668ADF8001D3F2A /* ViewController.m in Sources */,
+				8387DF662668ADF8001D3F2A /* AppDelegate.m in Sources */,
+				8387DF772668ADF9001D3F2A /* main.m in Sources */,
+				8387DF692668ADF8001D3F2A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387DF782668ADFA001D3F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8387DF812668ADFA001D3F2A /* HWLBatteryMonitorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387DF832668ADFA001D3F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8387DF8C2668ADFA001D3F2A /* HWLBatteryMonitorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8387DF7E2668ADFA001D3F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8387DF602668ADF8001D3F2A /* HWLBatteryMonitorDemo */;
+			targetProxy = 8387DF7D2668ADFA001D3F2A /* PBXContainerItemProxy */;
+		};
+		8387DF892668ADFA001D3F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8387DF602668ADF8001D3F2A /* HWLBatteryMonitorDemo */;
+			targetProxy = 8387DF882668ADFA001D3F2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8387DF6D2668ADF8001D3F2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8387DF6E2668ADF8001D3F2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8387DF722668ADF9001D3F2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8387DF732668ADF9001D3F2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8387DF8E2668ADFA001D3F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8387DF8F2668ADFA001D3F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8387DF912668ADFA001D3F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6N69QVRJ7;
+				INFOPLIST_FILE = HWLBatteryMonitorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaweiluo.hwlappdemo.HWLBatteryMonitorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8387DF922668ADFA001D3F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6N69QVRJ7;
+				INFOPLIST_FILE = HWLBatteryMonitorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaweiluo.hwlappdemo.HWLBatteryMonitorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8387DF942668ADFA001D3F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6N69QVRJ7;
+				INFOPLIST_FILE = HWLBatteryMonitorDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaweiluo.hwlappdemo.HWLBatteryMonitorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWLBatteryMonitorDemo.app/HWLBatteryMonitorDemo";
+			};
+			name = Debug;
+		};
+		8387DF952668ADFA001D3F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6N69QVRJ7;
+				INFOPLIST_FILE = HWLBatteryMonitorDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaweiluo.hwlappdemo.HWLBatteryMonitorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWLBatteryMonitorDemo.app/HWLBatteryMonitorDemo";
+			};
+			name = Release;
+		};
+		8387DF972668ADFA001D3F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6N69QVRJ7;
+				INFOPLIST_FILE = HWLBatteryMonitorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaweiluo.hwlappdemo.HWLBatteryMonitorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HWLBatteryMonitorDemo;
+			};
+			name = Debug;
+		};
+		8387DF982668ADFA001D3F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6N69QVRJ7;
+				INFOPLIST_FILE = HWLBatteryMonitorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaweiluo.hwlappdemo.HWLBatteryMonitorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HWLBatteryMonitorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8387DF5C2668ADF8001D3F2A /* Build configuration list for PBXProject "HWLBatteryMonitorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8387DF8E2668ADFA001D3F2A /* Debug */,
+				8387DF8F2668ADFA001D3F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8387DF902668ADFA001D3F2A /* Build configuration list for PBXNativeTarget "HWLBatteryMonitorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8387DF912668ADFA001D3F2A /* Debug */,
+				8387DF922668ADFA001D3F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8387DF932668ADFA001D3F2A /* Build configuration list for PBXNativeTarget "HWLBatteryMonitorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8387DF942668ADFA001D3F2A /* Debug */,
+				8387DF952668ADFA001D3F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8387DF962668ADFA001D3F2A /* Build configuration list for PBXNativeTarget "HWLBatteryMonitorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8387DF972668ADFA001D3F2A /* Debug */,
+				8387DF982668ADFA001D3F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8387DF592668ADF8001D3F2A /* Project object */;
+}
