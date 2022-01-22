@@ -25,6 +25,15 @@
     [self addTarget:self action:actionMethod forControlEvents:UIControlEventTouchUpInside];
 }
 
+- (void)removeHandleBlockByControlEvent:(UIControlEvents)event {
+    SEL actionMethod = [self methodForEvent:event];
+    [self removeTarget:self action:actionMethod forControlEvents:event];
+    
+    NSMutableDictionary *dic = [[NSMutableDictionary alloc] initWithDictionary:self.eventsActionBlockDic?:@{}];
+    [dic removeObjectForKey:[self keyByEvent:event]];
+    self.eventsActionBlockDic = [dic copy];
+}
+
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)selector {
     if ([NSStringFromSelector(selector) hasPrefix:dmk_eventBlockMethodPrefix]) {
         return [NSMethodSignature signatureWithObjCTypes:"v@:@:@"];
@@ -65,7 +74,7 @@
 }
 
 - (void)callActionBlock:(id)sender withEvent:(UIControlEvents)event {
-    DMKControlEventsActionBlock action = [self.eventsActionBlockDic objectForKey:[NSString stringWithFormat:@"%@", @(event)]];
+    DMKControlEventsActionBlock action = [self.eventsActionBlockDic objectForKey:[self keyByEvent:event]];
     if (action) {
         action(sender);
     }

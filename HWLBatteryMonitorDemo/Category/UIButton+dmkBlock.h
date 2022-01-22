@@ -13,6 +13,7 @@ typedef void (^DMKControlEventsActionBlock)(id sender);
 
 @interface UIButton(dmkBlock)
 - (void)handleControlEvent:(UIControlEvents)event withBlock:(DMKControlEventsActionBlock)action;
+- (void)removeHandleBlockByControlEvent:(UIControlEvents)event;
 @end
 
 NS_ASSUME_NONNULL_END
